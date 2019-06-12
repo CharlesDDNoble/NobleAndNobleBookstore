@@ -1,0 +1,26 @@
+
+
+body {
+	background-image: url(../images/background/paper.png);
+	background-color: #315c21;
+}
+
+form {
+    position: relative;
+	background-color: #d6cbaf;
+	width: 80vw;
+	min-height: 90vh;
+	min-width: 400px;
+	max-width: 800px;
+	margin: 5vh auto 0 auto;
+	padding: 10px;
+}
+
+#confirmation {
+    margin: 15vh 0 0 0;
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 5vh;
+}

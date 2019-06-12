@@ -1,0 +1,37 @@
+        body {
+            min-width: 330px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 15px;
+        }
+	   .result-title {
+	       margin-bottom: 15px;
+	   }
+	   .btn {
+	       margin: 0px;
+	   }
+	    @media only screen and (min-width: 768px) {
+           .btn {
+               margin-top: 50%;
+           }
+           
+       }
+        @media only screen and (min-width: 920px) {
+            h2 {
+                font-size: 20px;
+            }
+            h3 {
+                font-size: 15px;
+            }
+        }
+        @media only screen and (min-width: 1160px) {
+            h2 {
+                font-size: 30px;
+            }
+            h3 {
+                font-size: 25px;
+            }
+        }

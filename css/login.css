@@ -1,0 +1,41 @@
+
+
+body {
+	background-image: url(../images/background/paper.png);
+	background-color: #315c21;
+}
+
+#login-container {
+    width: 40vw;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+#login-form {
+	background-color: #d6cbaf;
+	min-width: 200px;
+	margin: 20vh auto auto auto;
+	border: 2px solid grey;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+#register-group {
+	color: white;
+	margin: 2vh auto auto auto;
+	padding: 10px;
+}
+
+.form-group {
+	margin: auto auto 1.25vh auto;
+	width: 90%;
+}
+
+.full-btn {
+	width: 100%;
+	margin: auto;
+}
+
+.horiz-align {
+	margin: auto;
+}

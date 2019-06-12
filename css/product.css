@@ -1,0 +1,14 @@
+body {
+    min-width: 530px;
+}
+
+#image-container {
+    padding: 20px;
+    padding-top: 0;
+}
+
+@media screen and (max-width: 767px) {
+    #sidebar {
+        display: none;
+    }
+}

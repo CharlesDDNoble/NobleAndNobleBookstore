@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Eagle+Lake|Fondamento');
+
+nav {
+border-radius: 0px !important;
+background-color: #315c21 !important;
+}
+
+.navbar-brand {
+color: white !important;
+font-size: 30px;
+font-family: 'Berkshire Swash', cursive;
+}
+
+.navbar-brand:active, .navbar-brand:visited, .navbar-brand:link {
+color: white !important;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+color: seagreen !important;
+}
+
+#search-btn:hover {
+background: yellow;
+}
+
+#nav-list li a:visited, #nav-list li a:active, #nav-list li a:link {
+color: white;
+}
+
+#nav-list li a:hover, #nav-list li a:focus {
+color: seagreen;
+}
+
+.panel-img {
+width: 100%;
+margin: auto;
+}
+
