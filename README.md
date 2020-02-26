@@ -13,5 +13,9 @@ A online bookstore created as a final for my web design class in April 2018. I w
 ![alt text](./product.png "The Noble&Noble product page. Simple as it is, I actually think this page still looks good today :)")
 
 
+### Product Page
+![alt text](./user.png "The Noble&Noble account page.")
+
+
 #### ToDo:
 + Add installation instructions
