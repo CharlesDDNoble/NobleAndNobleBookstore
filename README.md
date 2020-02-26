@@ -1,8 +1,17 @@
 # NobleAndNobleBookstore
-A online bookstore created as a final for my web design class in April 2018
+A online bookstore created as a final for my web design class in April 2018. I worked on this project solo, hence the name "Noble&Noble"! Note that this is in no means a representation of good modern web site design and server programming, especially some of the security practices (*ahem leaving db_config.php in a public repository*). This mostly serves as a time capsule for me in the future :)
 
-![alt text](./index.png "Logo Title Text 1")
+### Homepage
+![alt text](./index.png "The Noble&Noble Homepage. Please don't come after me using copyrighted images, I ain't got no monies :(")
 
-![alt text](./catalog.png "Logo Title Text 1")
 
-![alt text](./product.png "Logo Title Text 1")
+### Catalog/Search
+![alt text](./catalog.png "The Noble&Noble Catalog/Search page. Owo, dem filter options!")
+
+
+### Product Page
+![alt text](./product.png "The Noble&Noble product page. Simple as it is, I actually think this page still looks good today :)")
+
+
+#### ToDo:
++ Add installation instructions
