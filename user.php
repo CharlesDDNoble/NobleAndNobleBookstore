@@ -1,14 +1,12 @@
 <?php
+require_once 'db_config.php';
+
 session_start();
 
 if (!isset($_SESSION['uid'])) {
     header("Location: ./login.php?redirect=1");
 }
 
-$servername = 'mysql.hostinger.com';
-$username = 'u905801586_admin';
-$database = 'u905801586_noble';
-$password = 'FinalProject1!';
 $status = 0;
 
 try {

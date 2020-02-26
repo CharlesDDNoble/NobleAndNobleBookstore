@@ -1,9 +1,6 @@
 <?php
     if (!isset($pdo)) {
-        $servername = 'mysql.hostinger.com';
-        $username = 'u905801586_admin';
-        $database = 'u905801586_noble';
-        $password = 'FinalProject1!';
+        require_once 'db_config.php';
         
         try {
             $pdo = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
@@ -13,11 +10,13 @@
             die("Connection failed: " . $e->getMessage());
         }
     }
-	echo "<script>function sendForm() {document.getElementById(\"nav-form\").submit()}</script>";
-	$sql = $pdo->prepare("SELECT * From User WHERE UID=?");
-	$sql->bindValue(1,$_SESSION['uid']);
-	$sql->execute();
-	$balance = $sql->fetch()['GiftCardBalance'];
+    if (isset($_SESSION['uid'])) {
+    	echo "<script>function sendForm() {document.getElementById(\"nav-form\").submit()}</script>";
+    	$sql = $pdo->prepare("SELECT * From User WHERE UID=?");
+    	$sql->bindValue(1,$_SESSION['uid']);
+    	$sql->execute();
+    	$balance = $sql->fetch()['GiftCardBalance'];
+    }
 ?>
 
 <nav class="navbar navbar-default">

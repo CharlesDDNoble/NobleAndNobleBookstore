@@ -9,7 +9,7 @@
                     echo "<input type=\"radio\" value=\"Any\" name=\"type\" checked hidden>";
                     
                     foreach($sortType as $type) {
-                        if ($_GET['type'] == $type)
+                        if (isset($_SESSION['type']) && $_GET['type'] == $type)
                                echo "<div class=\"panel-body\"><input type=\"radio\" value=\"$type\" name=\"type\" checked> $type</div>";
                         else
                             echo "<div class=\"panel-body\"><input type=\"radio\" value=\"$type\" name=\"type\"> $type</div>";
@@ -22,7 +22,7 @@
                     echo "<input type=\"radio\" value=\"Any\" name=\"order\" checked hidden>";
                     
                     foreach($sortOrder as $order) {
-                        if ($_GET['order'] == $order)
+                        if (isset($_SESSION['order']) && $_GET['order'] == $order)
                             echo "<div class=\"panel-body\"><input type=\"radio\" value=\"$order\" name=\"order\" checked> $order</div>";
                         else
                             echo "<div class=\"panel-body\"><input type=\"radio\" value=\"$order\" name=\"order\"> $order</div>";
@@ -36,7 +36,7 @@
                 	echo "<div class=\"panel-body\"><input type=\"radio\" value=\"Any\" name=\"genre\" checked> Any</div>";
                     
                     foreach($genreNames as $genre) {
-                        if ($_GET['genre'] == $genre[0]) 
+                        if (isset($_SESSION['genre']) && $_GET['genre'] == $genre[0]) 
                             echo "<div class=\"panel-body\"><input type=\"radio\" value=\"$genre[0]\" name=\"genre\" checked> $genre[0]</div>";
                          else
                             echo "<div class=\"panel-body\"><input type=\"radio\" value=\"$genre[0]\" name=\"genre\"> $genre[0]</div>";
